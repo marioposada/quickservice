@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "rappiservice",
+    "slug": "rappiservice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logoPNG.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/logoPNG.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/logoPNG.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.expomarioposada2022.rappiservice"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "320d017d-1ddb-4040-8218-167450ba5bcd"
+      }
+    }
+  }
+}
